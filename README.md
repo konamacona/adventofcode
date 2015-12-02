@@ -1,2 +1,2 @@
 # adventofcode
-My entries for adventofcode, mostly to learn python
+My entries for [adventofcode](http://adventofcode.com/), mostly to learn python
