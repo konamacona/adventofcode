@@ -41,8 +41,6 @@ def try_parse_int(s, base=10, val=None):
 	except ValueError:
 		return val
 
-print str(count_lights())
-
 for line in sys.stdin.readlines():
 	line = line.replace(',', ' ')
 	x1, y1, x2, y2 = filter(lambda x: x != None, map(try_parse_int, line.split()))
